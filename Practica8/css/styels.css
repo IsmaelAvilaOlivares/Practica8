@@ -1,0 +1,48 @@
+.ColorTransparente {/*  selecciona todos los elementos que tienen la clase*/
+  width: 420px; /* establece el ancho de los elementos*/
+  background: transparent; /* establece el color de fondo de los elementos */
+  background: rgba(138, 221, 45, 0);/*   establece el color de fondo de los elementos */
+}
+body{ /*  selecciona el elemento*/
+    margin: 0%; /*establece el margen del cuerpo de la página*/
+}
+iframe{ /*  fija en relación con la ventana del navegador */
+    position: fixed; /*  Establece la posición del elemento siempre estará en la misma posición*/
+    min-width: 100%; /*  Establece el ancho mínimo del <iframe> */
+    min-height: 100%; /*  Establece la altura mínima del <iframe>*/
+    top: 50%;/*    Coloca el borde superior del <iframe>*/
+    left: 50%; /*  Coloca el borde izquierdo del <iframe>*/
+    transform: translateX(-50%) translateY(-50%);/*   Esto efectivamente centra el <iframe>*/
+    z-index: -1; /*  lo coloca detrás de todos los demás elementos en la página. */
+}
+.texto{ /*define una regla de estilo */
+  color:white; /*establece el color del texto de los elementos*/
+}
+
+
+
+.img{ /* contendra todo el estilo de la imagen del contenedor*/
+  display: block; /* muestre como un bloque*/
+  margin: auto; /* centra horizontalmente el elemento */
+  width: 350px;  /* Establece el ancho del elemento*/
+  height: 400px; /* Establece la altura del elemento */
+  border-radius: 30px; /* Aplica un radio de borde de 30 píxeles alrededor de las esquinas*/
+  box-shadow: 1px 1px 2px white,0 0 1em  rgb(243, 247, 34),0 0 0.2em rgba(219, 255, 12, 0.952);
+   /* Esta línea aplica una sombra al elemento*/
+}
+
+
+
+
+
+
+.punteado{/*  selecciona todos los elementos que tienen la clase*/
+  border-style: dotted;/* borde será una línea de puntos.*/
+   border-width: 6px;/*establece el ancho del borde */
+   border-color: brown;/*establece el color del borde */
+   font-family: verdana, arial;/*especifica la familia de fuentes a utilizar para el texto */
+   font-size: 15pt;/*establece el tamaño de la fuente del texto*/
+   background: transparent;/* establece el fondo de los elementos*/
+   background: rgba(17, 20, 236, 0.377);/*establece el color de fondo*/
+   border-radius: 35px;/*stablece el radio de borde de los elementos*/
+}
